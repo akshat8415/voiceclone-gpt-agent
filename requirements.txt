@@ -1,0 +1,8 @@
+numpy
+scipy
+librosa
+soundfile
+webrtcvad
+matplotlib
+PyQt5
+pyaudio
