@@ -30,26 +30,26 @@ Before getting started, ensure you have the following installed:
 
 1. **Clone the repository:**
 
-   ``bash
+   ```bash
    git clone https://github.com/akshat8415/voiceclone-gpt-agent.git
-   cd voiceclone-gpt-agent``
+   cd voiceclone-gpt-agent```
 
 
 2. **Set up a virtual environment (recommended):**
 
-    ``python -m venv venv``
-    ``source venv/bin/activate``  # On Windows, use venv\Scripts\activate
+    ```python -m venv venv```
+    ```source venv/bin/activate```  # On Windows, use venv\Scripts\activate
 
     - After that
-        ``python3.10 -m venv venv``
+        ```python3.10 -m venv venv```
     - For activate the environment
-        ``.\venv_py310\Scripts\activate ``
+        ```.\venv_py310\Scripts\activate ```
  
 
 
 3. **Install project dependencies:**
 
-    ``pip install -r requirements.txt``
+    ```pip install -r requirements.txt```
 
 
 4. **Downloading and Placing the Models**
