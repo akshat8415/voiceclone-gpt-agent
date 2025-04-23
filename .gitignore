@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+venv_py310/
+
+# Ignore audio files and model files
+*.wav
+*.pt
+
+# Ignore Jupyter and colab outputs
+.ipynb_checkpoints/
+.DS_Store
+*.log
