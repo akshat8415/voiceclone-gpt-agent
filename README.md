@@ -37,22 +37,27 @@ Before getting started, ensure you have the following installed:
 
 2. **Set up a virtual environment (recommended):**
 
-    ```python -m venv venv```
-    ```source venv/bin/activate```  # On Windows, use venv\Scripts\activate
+    ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   ```
 
     - After that
-        ```python3.10 -m venv venv```
+        ```
+      python3.10 -m venv venv
     - For activate the environment
-        ```.\venv_py310\Scripts\activate ```
+        ```
+      .\venv_py310\Scripts\activate 
  
 
 
-3. **Install project dependencies:**
+4. **Install project dependencies:**
 
-    ```pip install -r requirements.txt```
+    ```
+   pip install -r requirements.txt
 
 
-4. **Downloading and Placing the Models**
+6. **Downloading and Placing the Models**
 This project requires three large pre-trained models (Encoder, Synthesizer, Vocoder) that are not stored directly in the repository due to size limits.Steps:
 
     1. Download the models from the following Google Drive folder:Download Models from Google Drive     
